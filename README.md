@@ -1,4 +1,4 @@
-A simple NodeJS web application with database built on MVC framework.
+A simple NodeJS web application with database built on MVC framework with `tests`.
 
 ## Starting server
 ```bash

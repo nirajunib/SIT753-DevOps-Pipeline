@@ -7,4 +7,6 @@ router.use(express.json());
 
 router.post('/saveUserForm', User.saveUserForm);
 
+router.delete('/deleteUser', User.deleteUser);
+
 module.exports = router;

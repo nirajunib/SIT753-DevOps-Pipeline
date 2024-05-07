@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../controllers/User');
+const User = require('../controllers/user');
 
 // Middleware to parse JSON-formatted request bodies
 router.use(express.json());

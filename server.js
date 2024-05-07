@@ -1,8 +1,8 @@
 const express = require("express")
 const app = express()
 const { connectDatabase } = require('./dbConnection');
-const userRoutes = require('./routes/User');
-const carRoutes = require('./routes/Car');
+const userRoutes = require('./routes/user');
+const carRoutes = require('./routes/car');
 
 
 // Connect to the database

@@ -4,7 +4,6 @@ const { connectDatabase } = require('./dbConnection');
 const userRoutes = require('./routes/user');
 const carRoutes = require('./routes/car');
 
-
 // Connect to the database
 connectDatabase()
     .then(() => {
